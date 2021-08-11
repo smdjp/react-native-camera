@@ -124,7 +124,7 @@ public class CameraView extends FrameLayout {
             @Override
             public void onDisplayOrientationChanged(int displayOrientation, int deviceOrientation) {
                 mImpl.setDisplayOrientation(displayOrientation);
-                mImpl.setDeviceOrientation(deviceOrientation);
+//                 mImpl.setDeviceOrientation(deviceOrientation);
             }
         };
     }
