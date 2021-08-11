@@ -111,7 +111,7 @@ abstract class DisplayOrientationDetector {
 
     void dispatchOnDisplayOrientationChanged(int displayOrientation) {
         mLastKnownDisplayOrientation = displayOrientation;
-        onDisplayOrientationChanged(displayOrientation, mLastKnownDeviceOrientation);
+//         onDisplayOrientationChanged(displayOrientation, mLastKnownDeviceOrientation);
     }
 
     /**
